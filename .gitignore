@@ -4,3 +4,5 @@ __pycache__/
 *.pyc
 inventory.db
 .env
+
+.playwright-mcp/
