@@ -1,0 +1,83 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - complementary "Main navigation" [ref=e3]:
+      - link "Stockroom home" [ref=e4] [cursor=pointer]:
+        - /url: "#overview"
+        - generic [ref=e9]: stockroom
+      - paragraph [ref=e10]: WORKSPACE
+      - navigation [ref=e11]:
+        - link "Overview" [ref=e12] [cursor=pointer]:
+          - /url: "#overview"
+        - link "Products" [ref=e18] [cursor=pointer]:
+          - /url: "#products"
+        - link "Stock alerts 0" [ref=e22] [cursor=pointer]:
+          - /url: "#products"
+          - text: Stock alerts
+          - generic [ref=e25]: "0"
+      - generic [ref=e26]:
+        - generic [ref=e29]:
+          - strong [ref=e30]: Local workspace
+          - generic [ref=e31]: Your data stays in this browser
+        - paragraph [ref=e32]: STOCKROOM · INVENTORY
+    - main [ref=e33]:
+      - generic [ref=e34]:
+        - generic [ref=e35]:
+          - generic [ref=e36]: Workspace
+          - generic [ref=e37]: /
+          - strong [ref=e38]: Overview
+        - generic [ref=e39]:
+          - generic [ref=e40]: Mon, Oct 19, 2026
+          - generic "Inventory workspace" [ref=e41]: I
+      - generic [ref=e42]:
+        - generic [ref=e43]:
+          - generic [ref=e44]:
+            - paragraph [ref=e45]: INVENTORY MANAGEMENT
+            - heading "Good inventory starts here." [level=1] [ref=e46]
+            - paragraph [ref=e47]: Keep products organized, spot low stock early, and stay on top of what you have.
+          - button "Add product" [ref=e48] [cursor=pointer]
+        - generic "Inventory summary" [ref=e51]:
+          - article [ref=e52]:
+            - generic [ref=e53]: Total products
+            - paragraph [ref=e59]: "0"
+            - paragraph [ref=e60]: Unique items in your catalog
+          - article [ref=e61]:
+            - generic [ref=e62]: Units in stock
+            - paragraph [ref=e67]: "0"
+            - paragraph [ref=e68]: Across all products
+          - article [ref=e69]:
+            - generic [ref=e70]: Inventory value
+            - paragraph [ref=e75]: Rs 0.00
+            - paragraph [ref=e76]: Based on current stock quantity
+          - article [ref=e77]:
+            - generic [ref=e78]: Needs attention
+            - paragraph [ref=e84]: "0"
+            - paragraph [ref=e85]: At or below the low-stock limit
+        - region [ref=e86]:
+          - generic [ref=e87]:
+            - generic [ref=e88]:
+              - paragraph [ref=e89]: YOUR CATALOG
+              - heading "Products 0" [level=2] [ref=e90]:
+                - text: Products
+                - generic [ref=e91]: "0"
+              - paragraph [ref=e92]: Search, review, and update your stock in one place.
+            - button "Add product" [ref=e93] [cursor=pointer]
+          - generic [ref=e96]:
+            - generic [ref=e97]:
+              - generic [ref=e101]: Search products by name or SKU
+              - searchbox "Search products by name or SKU /" [ref=e102]
+              - generic [ref=e103]: /
+            - group "Filter products" [ref=e104]:
+              - button "All products" [pressed] [ref=e105] [cursor=pointer]
+              - button "Low stock" [ref=e106] [cursor=pointer]
+              - button "Out of stock" [ref=e107] [cursor=pointer]
+          - generic [ref=e109]:
+            - heading "Your catalog is ready" [level=3] [ref=e114]
+            - paragraph [ref=e115]: Add your first product to start tracking quantities and stock value.
+            - button "Add your first product" [ref=e116] [cursor=pointer]
+          - generic [ref=e117]:
+            - generic [ref=e118]: No products yet
+            - generic [ref=e119]: Prices in Pakistani rupees (Rs)
+        - generic [ref=e120]:
+          - generic [ref=e121]: Simple stock tracking for your workspace.
+          - generic [ref=e122]: Saved in this browser
+  - status
